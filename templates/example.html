@@ -1,0 +1,10 @@
+<html>
+<body>
+	<p>Hello <b>{{username}}</b></p>
+	<form action="" method="POST">
+		{% csrf_token %}
+		<input type="text" id="id_username" name="username" />
+		<button type="submit"> Submit </button>
+	</form>
+	</body>
+</html>
